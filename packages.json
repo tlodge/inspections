@@ -1,5 +1,5 @@
 {
-    "packageId": "4bc53f9708c17c",
+    "packageId": "1e556a1a9aeb8d",
     "name": "",
     "description": "",
     "buttons": [
@@ -47,7 +47,11 @@
                     "question": "stairs",
                     "type": "options",
                     "values": {
-                        "options": [],
+                        "options": [
+                            "clean",
+                            "clear access",
+                            "log issue"
+                        ],
                         "multiple": "multiple",
                         "none": true
                     },
@@ -192,6 +196,16 @@
                                                                 "nodeid": "26017c26bb1014",
                                                                 "children": []
                                                             }
+                                                        ],
+                                                        "rules": [
+                                                            {
+                                                                "type": "options",
+                                                                "values": [
+                                                                    "clean",
+                                                                    "working",
+                                                                    "undamaged"
+                                                                ]
+                                                            }
                                                         ]
                                                     },
                                                     {
@@ -205,6 +219,23 @@
                                                                 "parent": "26017c26bb1014",
                                                                 "children": []
                                                             }
+                                                        ],
+                                                        "rules": [
+                                                            {
+                                                                "type": "options",
+                                                                "values": [
+                                                                    "log issue"
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "rules": [
+                                                    {
+                                                        "type": "options",
+                                                        "values": [
+                                                            "good access",
+                                                            "clean"
                                                         ]
                                                     }
                                                 ]
@@ -221,6 +252,23 @@
                                                         "nodeid": "37e5e555e9bbc",
                                                         "children": []
                                                     }
+                                                ],
+                                                "rules": [
+                                                    {
+                                                        "type": "options",
+                                                        "values": [
+                                                            "log issue"
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "rules": [
+                                            {
+                                                "type": "options",
+                                                "values": [
+                                                    "clear access",
+                                                    "clean"
                                                 ]
                                             }
                                         ]
@@ -237,6 +285,22 @@
                                                 "nodeid": "fd9a97f5278768",
                                                 "children": []
                                             }
+                                        ],
+                                        "rules": [
+                                            {
+                                                "type": "options",
+                                                "values": [
+                                                    "log issue"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "rules": [
+                                    {
+                                        "type": "options",
+                                        "values": [
+                                            "working"
                                         ]
                                     }
                                 ]
@@ -253,6 +317,24 @@
                                         "nodeid": "1a4e4b8d0d28e7",
                                         "children": []
                                     }
+                                ],
+                                "rules": [
+                                    {
+                                        "type": "options",
+                                        "values": [
+                                            "log issue"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "rules": [
+                            {
+                                "type": "options",
+                                "values": [
+                                    "undamaged",
+                                    "working",
+                                    "clean"
                                 ]
                             }
                         ]
@@ -268,6 +350,14 @@
                                 "parent": null,
                                 "nodeid": "228eabcf7a46c8",
                                 "children": []
+                            }
+                        ],
+                        "rules": [
+                            {
+                                "type": "options",
+                                "values": [
+                                    "log issue"
+                                ]
                             }
                         ]
                     }
