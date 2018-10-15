@@ -1,5 +1,5 @@
 {
-    "packageId": "1ecb868a99b20f",
+    "packageId": "124c63a02d1eb2",
     "name": "",
     "description": "",
     "buttons": [
@@ -194,7 +194,8 @@
                                                                 "type": "subtree",
                                                                 "parent": null,
                                                                 "nodeid": "26017c26bb1014",
-                                                                "children": []
+                                                                "children": [],
+                                                                "rules": []
                                                             }
                                                         ],
                                                         "rules": [
@@ -215,7 +216,8 @@
                                                                 "id": "1478c0247496c6",
                                                                 "type": "node",
                                                                 "parent": "26017c26bb1014",
-                                                                "children": []
+                                                                "children": [],
+                                                                "rules": []
                                                             }
                                                         ],
                                                         "rules": [
@@ -250,7 +252,8 @@
                                                         "type": "subtree",
                                                         "parent": null,
                                                         "nodeid": "37e5e555e9bbc",
-                                                        "children": []
+                                                        "children": [],
+                                                        "rules": []
                                                     }
                                                 ],
                                                 "rules": [
@@ -283,7 +286,8 @@
                                                 "type": "subtree",
                                                 "parent": null,
                                                 "nodeid": "fd9a97f5278768",
-                                                "children": []
+                                                "children": [],
+                                                "rules": []
                                             }
                                         ],
                                         "rules": [
@@ -315,7 +319,8 @@
                                         "type": "subtree",
                                         "parent": null,
                                         "nodeid": "1a4e4b8d0d28e7",
-                                        "children": []
+                                        "children": [],
+                                        "rules": []
                                     }
                                 ],
                                 "rules": [
@@ -349,7 +354,8 @@
                                 "type": "subtree",
                                 "parent": null,
                                 "nodeid": "228eabcf7a46c8",
-                                "children": []
+                                "children": [],
+                                "rules": []
                             }
                         ],
                         "rules": [
@@ -382,6 +388,65 @@
                     "id": "1478c0247496c6"
                 }
             ]
+        },
+        {
+            "buttonId": "1f6d3506a59b1a",
+            "name": "reports",
+            "description": "reports on inspections",
+            "type": "action",
+            "questions": [
+                {
+                    "question": "reports",
+                    "type": "datastoreitem",
+                    "values": {
+                        "storeId": "blockAinterior",
+                        "schema": [
+                            {
+                                "id": "1478c0247496c6_pressed",
+                                "path": "1478c0247496c6_pressed",
+                                "alias": [
+                                    "pressed"
+                                ]
+                            },
+                            {
+                                "id": "2c6ee6f8e1c62c",
+                                "path": "2c6ee6f8e1c62c",
+                                "alias": "door"
+                            },
+                            {
+                                "id": "3c93375fc682f",
+                                "path": "3c93375fc682f",
+                                "alias": "lighting"
+                            },
+                            {
+                                "id": "877c23bc2875d",
+                                "path": "877c23bc2875d",
+                                "alias": "stairs"
+                            },
+                            {
+                                "id": "23fc228b54d2a",
+                                "path": "23fc228b54d2a",
+                                "alias": "floors"
+                            },
+                            {
+                                "id": "1fb09b6a67b892",
+                                "path": "1fb09b6a67b892",
+                                "alias": "lift"
+                            }
+                        ]
+                    },
+                    "validators": [],
+                    "questionId": "1deb59c541fc4e",
+                    "number": 1
+                }
+            ],
+            "navigation": {
+                "id": "1deb59c541fc4e",
+                "type": "node",
+                "parent": null,
+                "children": []
+            },
+            "webhooks": []
         }
     ]
 }
