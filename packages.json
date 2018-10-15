@@ -1,5 +1,5 @@
 {
-    "packageId": "1e556a1a9aeb8d",
+    "packageId": "1ecb868a99b20f",
     "name": "",
     "description": "",
     "buttons": [
@@ -201,9 +201,7 @@
                                                             {
                                                                 "type": "options",
                                                                 "values": [
-                                                                    "clean",
-                                                                    "working",
-                                                                    "undamaged"
+                                                                    "log issue"
                                                                 ]
                                                             }
                                                         ]
@@ -224,7 +222,9 @@
                                                             {
                                                                 "type": "options",
                                                                 "values": [
-                                                                    "log issue"
+                                                                    "working",
+                                                                    "undamaged",
+                                                                    "clean"
                                                                 ]
                                                             }
                                                         ]
