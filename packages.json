@@ -1,5 +1,5 @@
 {
-    "packageId": "181356a312244d",
+    "packageId": "1272fc85c48b9",
     "name": "",
     "description": "",
     "buttons": [
@@ -157,6 +157,14 @@
                     "validators": [],
                     "questionId": "26017c26bb1014",
                     "number": 11
+                },
+                {
+                    "question": "take a picture",
+                    "type": "camera",
+                    "values": {},
+                    "validators": [],
+                    "questionId": "2aa2f3ddcbedde",
+                    "number": 12
                 }
             ],
             "navigation": {
@@ -350,11 +358,18 @@
                         "parent": "eff009cb984638",
                         "children": [
                             {
-                                "id": "85b3861bab8f88",
-                                "type": "subtree",
-                                "parent": null,
-                                "nodeid": "228eabcf7a46c8",
-                                "children": [],
+                                "id": "2aa2f3ddcbedde",
+                                "type": "node",
+                                "parent": "2c6ee6f8e1c62c",
+                                "children": [
+                                    {
+                                        "id": "85b3861bab8f88",
+                                        "type": "subtree",
+                                        "parent": "2aa2f3ddcbedde",
+                                        "nodeid": "228eabcf7a46c8",
+                                        "children": []
+                                    }
+                                ],
                                 "rules": []
                             }
                         ],
