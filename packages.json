@@ -1,5 +1,5 @@
 {
-    "packageId": "1272fc85c48b9",
+    "packageId": "223619fcc426d",
     "name": "",
     "description": "",
     "buttons": [
@@ -367,7 +367,8 @@
                                         "type": "subtree",
                                         "parent": "2aa2f3ddcbedde",
                                         "nodeid": "228eabcf7a46c8",
-                                        "children": []
+                                        "children": [],
+                                        "rules": []
                                     }
                                 ],
                                 "rules": []
@@ -447,6 +448,11 @@
                                 "id": "1fb09b6a67b892",
                                 "path": "1fb09b6a67b892",
                                 "alias": "lift"
+                            },
+                            {
+                                "id": "2aa2f3ddcbedde",
+                                "path": "2aa2f3ddcbedde",
+                                "alias": "take a picture"
                             }
                         ]
                     },
