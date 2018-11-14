@@ -1,5 +1,5 @@
 {
-    "packageId": "223619fcc426d",
+    "packageId": "2ad07e08dabff6",
     "name": "",
     "description": "",
     "buttons": [
@@ -418,13 +418,6 @@
                         "storeId": "blockAinterior",
                         "schema": [
                             {
-                                "id": "1478c0247496c6_pressed",
-                                "path": "1478c0247496c6_pressed",
-                                "alias": [
-                                    "pressed"
-                                ]
-                            },
-                            {
                                 "id": "2c6ee6f8e1c62c",
                                 "path": "2c6ee6f8e1c62c",
                                 "alias": "door"
@@ -453,6 +446,11 @@
                                 "id": "2aa2f3ddcbedde",
                                 "path": "2aa2f3ddcbedde",
                                 "alias": "take a picture"
+                            },
+                            {
+                                "id": "1478c0247496c6_pressed",
+                                "path": "1478c0247496c6_pressed",
+                                "alias": "time"
                             }
                         ]
                     },
