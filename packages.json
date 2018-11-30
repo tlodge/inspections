@@ -1,5 +1,5 @@
 {
-    "packageId": "2ad07e08dabff6",
+    "packageId": "21a08852be7952",
     "name": "",
     "description": "",
     "buttons": [
@@ -14,13 +14,12 @@
                     "type": "options",
                     "values": {
                         "options": [
-                            "clean",
-                            "undamaged",
-                            "working",
+                            "passed",
                             "log issue"
                         ],
                         "multiple": "multiple",
-                        "none": true
+                        "none": true,
+                        "description": "a working door must be easy to open, clean and undamaged"
                     },
                     "validators": [],
                     "compulsory": true,
@@ -32,11 +31,12 @@
                     "type": "options",
                     "values": {
                         "options": [
-                            "working",
+                            "passed",
                             "log issue"
                         ],
                         "multiple": "single",
-                        "none": false
+                        "none": false,
+                        "description": "if lighting is working it should not be flickering and bulbs must be clean"
                     },
                     "validators": [],
                     "compulsory": true,
@@ -48,12 +48,12 @@
                     "type": "options",
                     "values": {
                         "options": [
-                            "clean",
-                            "clear access",
+                            "passed",
                             "log issue"
                         ],
                         "multiple": "multiple",
-                        "none": true
+                        "none": true,
+                        "description": "stairs must have clear access, and must be clean and undamaged"
                     },
                     "validators": [],
                     "compulsory": true,
@@ -65,12 +65,12 @@
                     "type": "options",
                     "values": {
                         "options": [
-                            "clean",
-                            "good access",
+                            "passed",
                             "log issue"
                         ],
                         "multiple": "single",
-                        "none": false
+                        "none": false,
+                        "description": "these must must be clear, tidy and clean"
                     },
                     "validators": [],
                     "compulsory": true,
@@ -82,13 +82,12 @@
                     "type": "options",
                     "values": {
                         "options": [
-                            "clean",
-                            "undamaged",
                             "working",
                             "log issue"
                         ],
                         "multiple": "multiple",
-                        "none": true
+                        "none": true,
+                        "description": "the lift must be clear, clean and undamaged. Please check each button on the panel"
                     },
                     "validators": [],
                     "compulsory": true,
@@ -206,14 +205,7 @@
                                                                 "rules": []
                                                             }
                                                         ],
-                                                        "rules": [
-                                                            {
-                                                                "type": "options",
-                                                                "values": [
-                                                                    "log issue"
-                                                                ]
-                                                            }
-                                                        ]
+                                                        "rules": []
                                                     },
                                                     {
                                                         "id": "26017c26bb1014",
@@ -228,27 +220,10 @@
                                                                 "rules": []
                                                             }
                                                         ],
-                                                        "rules": [
-                                                            {
-                                                                "type": "options",
-                                                                "values": [
-                                                                    "working",
-                                                                    "undamaged",
-                                                                    "clean"
-                                                                ]
-                                                            }
-                                                        ]
+                                                        "rules": []
                                                     }
                                                 ],
-                                                "rules": [
-                                                    {
-                                                        "type": "options",
-                                                        "values": [
-                                                            "good access",
-                                                            "clean"
-                                                        ]
-                                                    }
-                                                ]
+                                                "rules": []
                                             },
                                             {
                                                 "id": "23fc228b54d2a",
@@ -264,25 +239,10 @@
                                                         "rules": []
                                                     }
                                                 ],
-                                                "rules": [
-                                                    {
-                                                        "type": "options",
-                                                        "values": [
-                                                            "log issue"
-                                                        ]
-                                                    }
-                                                ]
+                                                "rules": []
                                             }
                                         ],
-                                        "rules": [
-                                            {
-                                                "type": "options",
-                                                "values": [
-                                                    "clear access",
-                                                    "clean"
-                                                ]
-                                            }
-                                        ]
+                                        "rules": []
                                     },
                                     {
                                         "id": "877c23bc2875d",
@@ -298,24 +258,10 @@
                                                 "rules": []
                                             }
                                         ],
-                                        "rules": [
-                                            {
-                                                "type": "options",
-                                                "values": [
-                                                    "log issue"
-                                                ]
-                                            }
-                                        ]
+                                        "rules": []
                                     }
                                 ],
-                                "rules": [
-                                    {
-                                        "type": "options",
-                                        "values": [
-                                            "working"
-                                        ]
-                                    }
-                                ]
+                                "rules": []
                             },
                             {
                                 "id": "3c93375fc682f",
@@ -331,26 +277,10 @@
                                         "rules": []
                                     }
                                 ],
-                                "rules": [
-                                    {
-                                        "type": "options",
-                                        "values": [
-                                            "log issue"
-                                        ]
-                                    }
-                                ]
+                                "rules": []
                             }
                         ],
-                        "rules": [
-                            {
-                                "type": "options",
-                                "values": [
-                                    "undamaged",
-                                    "working",
-                                    "clean"
-                                ]
-                            }
-                        ]
+                        "rules": []
                     },
                     {
                         "id": "2c6ee6f8e1c62c",
@@ -374,14 +304,7 @@
                                 "rules": []
                             }
                         ],
-                        "rules": [
-                            {
-                                "type": "options",
-                                "values": [
-                                    "log issue"
-                                ]
-                            }
-                        ]
+                        "rules": []
                     }
                 ]
             },
