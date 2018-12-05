@@ -1,5 +1,5 @@
 {
-    "packageId": "12d617786db3c2",
+    "packageId": "18f869d88814fb",
     "name": "",
     "description": "",
     "buttons": [
@@ -82,7 +82,7 @@
                     "type": "options",
                     "values": {
                         "options": [
-                            "working",
+                            "passed",
                             "log issue"
                         ],
                         "multiple": "single",
@@ -206,7 +206,14 @@
                                                                 "rules": []
                                                             }
                                                         ],
-                                                        "rules": []
+                                                        "rules": [
+                                                            {
+                                                                "type": "options",
+                                                                "values": [
+                                                                    "passed"
+                                                                ]
+                                                            }
+                                                        ]
                                                     },
                                                     {
                                                         "id": "26017c26bb1014",
@@ -221,10 +228,24 @@
                                                                 "rules": []
                                                             }
                                                         ],
-                                                        "rules": []
+                                                        "rules": [
+                                                            {
+                                                                "type": "options",
+                                                                "values": [
+                                                                    "log issue"
+                                                                ]
+                                                            }
+                                                        ]
                                                     }
                                                 ],
-                                                "rules": []
+                                                "rules": [
+                                                    {
+                                                        "type": "options",
+                                                        "values": [
+                                                            "passed"
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "id": "23fc228b54d2a",
@@ -240,10 +261,24 @@
                                                         "rules": []
                                                     }
                                                 ],
-                                                "rules": []
+                                                "rules": [
+                                                    {
+                                                        "type": "options",
+                                                        "values": [
+                                                            "log issue"
+                                                        ]
+                                                    }
+                                                ]
                                             }
                                         ],
-                                        "rules": []
+                                        "rules": [
+                                            {
+                                                "type": "options",
+                                                "values": [
+                                                    "passed"
+                                                ]
+                                            }
+                                        ]
                                     },
                                     {
                                         "id": "877c23bc2875d",
@@ -259,10 +294,24 @@
                                                 "rules": []
                                             }
                                         ],
-                                        "rules": []
+                                        "rules": [
+                                            {
+                                                "type": "options",
+                                                "values": [
+                                                    "log issue"
+                                                ]
+                                            }
+                                        ]
                                     }
                                 ],
-                                "rules": []
+                                "rules": [
+                                    {
+                                        "type": "options",
+                                        "values": [
+                                            "passed"
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 "id": "3c93375fc682f",
@@ -278,10 +327,24 @@
                                         "rules": []
                                     }
                                 ],
-                                "rules": []
+                                "rules": [
+                                    {
+                                        "type": "options",
+                                        "values": [
+                                            "log issue"
+                                        ]
+                                    }
+                                ]
                             }
                         ],
-                        "rules": []
+                        "rules": [
+                            {
+                                "type": "options",
+                                "values": [
+                                    "passed"
+                                ]
+                            }
+                        ]
                     },
                     {
                         "id": "2c6ee6f8e1c62c",
@@ -305,7 +368,14 @@
                                 "rules": []
                             }
                         ],
-                        "rules": []
+                        "rules": [
+                            {
+                                "type": "options",
+                                "values": [
+                                    "log issue"
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
