@@ -19,7 +19,7 @@
                         ],
                         "multiple": "single",
                         "none": true,
-                        "description": "a working door must be easy to open, clean and undamaged",
+                        "description": "a working door must be easy to open, clean and undamaged"
                     },
                     "validators": [],
                     "compulsory": true,
@@ -109,7 +109,7 @@
                     "question": "describe issue",
                     "type": "freetext",
                     "values": {
-                        "format": "medium",
+                        "format": "medium"
                     },
                     "validators": [],
                     "compulsory": false,
@@ -120,7 +120,7 @@
                     "question": "describe issue",
                     "type": "freetext",
                     "values": {
-                        "format": "medium",
+                        "format": "medium"
                     },
                     "validators": [],
                     "compulsory": false,
@@ -131,7 +131,7 @@
                     "question": "describe issue",
                     "type": "freetext",
                     "values": {
-                        "format": "medium",
+                        "format": "medium"
                     },
                     "validators": [],
                     "compulsory": true,
@@ -142,7 +142,7 @@
                     "question": "describe issue",
                     "type": "freetext",
                     "values": {
-                        "format": "medium",
+                        "format": "medium"
                     },
                     "validators": [],
                     "compulsory": false,
@@ -152,8 +152,7 @@
                 {
                     "question": "sign off",
                     "type": "signature",
-                    "values": {
-                    },
+                    "values": {},
                     "validators": [],
                     "questionId": "26017c26bb1014",
                     "number": 11,
@@ -162,9 +161,7 @@
                 {
                     "question": "take a picture",
                     "type": "camera",
-                    "values": {
-                      
-                    },
+                    "values": {},
                     "validators": [],
                     "questionId": "2aa2f3ddcbedde",
                     "number": 12
