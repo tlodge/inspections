@@ -70,7 +70,7 @@
                         ],
                         "multiple": "single",
                         "none": false,
-                        "description": "these must must be clear, tidy and clean",
+                        "description": "these must must be clear, tidy and clean"
                     },
                     "validators": [],
                     "compulsory": true,
