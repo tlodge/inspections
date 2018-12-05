@@ -1,5 +1,5 @@
 {
-    "packageId": "21a08852be7952",
+    "packageId": "1289db0b9c10b7",
     "name": "",
     "description": "",
     "buttons": [
@@ -17,9 +17,10 @@
                             "passed",
                             "log issue"
                         ],
-                        "multiple": "multiple",
+                        "multiple": "single",
                         "none": true,
-                        "description": "a working door must be easy to open, clean and undamaged"
+                        "description": "a working door must be easy to open, clean and undamaged",
+                        "compulsory": false
                     },
                     "validators": [],
                     "compulsory": true,
@@ -51,7 +52,7 @@
                             "passed",
                             "log issue"
                         ],
-                        "multiple": "multiple",
+                        "multiple": "single",
                         "none": true,
                         "description": "stairs must have clear access, and must be clean and undamaged"
                     },
@@ -70,7 +71,8 @@
                         ],
                         "multiple": "single",
                         "none": false,
-                        "description": "these must must be clear, tidy and clean"
+                        "description": "these must must be clear, tidy and clean",
+                        "compulsory": false
                     },
                     "validators": [],
                     "compulsory": true,
@@ -85,7 +87,7 @@
                             "working",
                             "log issue"
                         ],
-                        "multiple": "multiple",
+                        "multiple": "single",
                         "none": true,
                         "description": "the lift must be clear, clean and undamaged. Please check each button on the panel"
                     },
@@ -109,7 +111,8 @@
                     "question": "describe issue",
                     "type": "freetext",
                     "values": {
-                        "format": "medium"
+                        "format": "medium",
+                        "compulsory": true
                     },
                     "validators": [],
                     "compulsory": true,
@@ -120,7 +123,8 @@
                     "question": "describe issue",
                     "type": "freetext",
                     "values": {
-                        "format": "medium"
+                        "format": "medium",
+                        "compulsory": true
                     },
                     "validators": [],
                     "compulsory": true,
@@ -131,7 +135,8 @@
                     "question": "describe issue",
                     "type": "freetext",
                     "values": {
-                        "format": "medium"
+                        "format": "medium",
+                        "compulsory": true
                     },
                     "validators": [],
                     "compulsory": true,
@@ -142,7 +147,8 @@
                     "question": "describe issue",
                     "type": "freetext",
                     "values": {
-                        "format": "medium"
+                        "format": "medium",
+                        "compulsory": true
                     },
                     "validators": [],
                     "compulsory": true,
@@ -152,7 +158,9 @@
                 {
                     "question": "sign off",
                     "type": "signature",
-                    "values": {},
+                    "values": {
+                        "compulsory": false
+                    },
                     "validators": [],
                     "questionId": "26017c26bb1014",
                     "number": 11
@@ -160,7 +168,9 @@
                 {
                     "question": "take a picture",
                     "type": "camera",
-                    "values": {},
+                    "values": {
+                        "compulsory": true
+                    },
                     "validators": [],
                     "questionId": "2aa2f3ddcbedde",
                     "number": 12
