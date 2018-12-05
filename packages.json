@@ -1,5 +1,5 @@
 {
-    "packageId": "fc4d454d20aad",
+    "packageId": "18cf3882da6aee",
     "name": "",
     "description": "",
     "buttons": [
@@ -103,7 +103,7 @@
                         "format": "medium"
                     },
                     "validators": [],
-                    "compulsory": true,
+                    "compulsory": false,
                     "questionId": "2c6ee6f8e1c62c",
                     "number": 6
                 },
@@ -115,7 +115,7 @@
                         "compulsory": true
                     },
                     "validators": [],
-                    "compulsory": true,
+                    "compulsory": false,
                     "questionId": "3c93375fc682f",
                     "number": 7
                 },
@@ -127,7 +127,7 @@
                         "compulsory": true
                     },
                     "validators": [],
-                    "compulsory": true,
+                    "compulsory": false,
                     "questionId": "877c23bc2875d",
                     "number": 8
                 },
@@ -151,7 +151,7 @@
                         "compulsory": true
                     },
                     "validators": [],
-                    "compulsory": true,
+                    "compulsory": false,
                     "questionId": "1fb09b6a67b892",
                     "number": 10
                 },
@@ -163,7 +163,8 @@
                     },
                     "validators": [],
                     "questionId": "26017c26bb1014",
-                    "number": 11
+                    "number": 11,
+                    "compulsory": true
                 },
                 {
                     "question": "take a picture",
