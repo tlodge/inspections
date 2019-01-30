@@ -1,5 +1,5 @@
 {
-    "packageId": "17ccce944f8bb4",
+    "packageId": "13abcb21c9bb69",
     "name": "",
     "description": "",
     "buttons": [
@@ -224,7 +224,14 @@
                                                                 "id": "1478c0247496c6",
                                                                 "type": "node",
                                                                 "parent": "26017c26bb1014",
-                                                                "children": [],
+                                                                "children": [
+                                                                    {
+                                                                        "id": "676d4d75dfae84",
+                                                                        "type": "node",
+                                                                        "parent": "1478c0247496c6",
+                                                                        "children": []
+                                                                    }
+                                                                ],
                                                                 "rules": []
                                                             }
                                                         ],
@@ -396,6 +403,37 @@
                         }
                     },
                     "webhookId": "1478c0247496c6"
+                },
+                {
+                    "name": "notify endpoint",
+                    "type": "notify",
+                    "url": "http://buttonkit:8080/api/v1/send",
+                    "method": "POST",
+                    "parameters": {
+                        "dynamic": [
+                            {
+                                "name": "presser",
+                                "type": "presser",
+                                "id": "presser",
+                                "path": ""
+                            }
+                        ],
+                        "static": {
+                            "email": {
+                                "subject": "",
+                                "body": ""
+                            },
+                            "sms": {
+                                "body": ""
+                            },
+                            "message": {
+                                "name": "thanks for inspecting",
+                                "text": "an inspection has been done by you!"
+                            },
+                            "recipients": []
+                        }
+                    },
+                    "webhookId": "676d4d75dfae84"
                 }
             ]
         },
