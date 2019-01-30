@@ -1,5 +1,5 @@
 {
-    "packageId": "2e403518abe0c2",
+    "packageId": "25d1432c48d7f6",
     "name": "",
     "description": "",
     "buttons": [
@@ -226,11 +226,10 @@
                                                                 "parent": "26017c26bb1014",
                                                                 "children": [
                                                                     {
-                                                                        "id": "676d4d75dfae84",
+                                                                        "id": "7c232848d85c54",
                                                                         "type": "node",
                                                                         "parent": "1478c0247496c6",
-                                                                        "children": [],
-                                                                        "rules": []
+                                                                        "children": []
                                                                     }
                                                                 ],
                                                                 "rules": []
@@ -411,14 +410,21 @@
                     "url": "http://buttonkit:8080/api/v1/send",
                     "method": "POST",
                     "parameters": {
-                        "dynamic": [
-                            {
-                                "name": "presser",
-                                "type": "presser",
-                                "id": "presser",
-                                "path": ""
-                            }
-                        ],
+                        "dynamic": {
+                            "recipients": [
+                                {
+                                    "name": "presser",
+                                    "type": "presser",
+                                    "id": "presser",
+                                    "path": ""
+                                }
+                            ],
+                            "email": [],
+                            "sms": [],
+                            "message": [
+                                "presser"
+                            ]
+                        },
                         "static": {
                             "email": {
                                 "subject": "",
@@ -428,13 +434,13 @@
                                 "body": ""
                             },
                             "message": {
-                                "name": "thanks for inspecting",
-                                "text": "an inspection has been done by you!"
+                                "subject": "Inspected",
+                                "body": "Thanks, [presser:username] for inspecting, it has been logged!"
                             },
                             "recipients": []
                         }
                     },
-                    "webhookId": "676d4d75dfae84"
+                    "webhookId": "7c232848d85c54"
                 }
             ]
         },
