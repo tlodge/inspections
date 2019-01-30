@@ -1,5 +1,5 @@
 {
-    "packageId": "13abcb21c9bb69",
+    "packageId": "2e403518abe0c2",
     "name": "",
     "description": "",
     "buttons": [
@@ -229,7 +229,8 @@
                                                                         "id": "676d4d75dfae84",
                                                                         "type": "node",
                                                                         "parent": "1478c0247496c6",
-                                                                        "children": []
+                                                                        "children": [],
+                                                                        "rules": []
                                                                     }
                                                                 ],
                                                                 "rules": []
