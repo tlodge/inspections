@@ -1,5 +1,5 @@
 {
-    "packageId": "18f869d88814fb",
+    "packageId": "86c40aeb17c108",
     "name": "",
     "description": "",
     "buttons": [
@@ -210,7 +210,7 @@
                                                             {
                                                                 "type": "options",
                                                                 "values": [
-                                                                    "passed"
+                                                                    "log issue"
                                                                 ]
                                                             }
                                                         ]
@@ -232,7 +232,7 @@
                                                             {
                                                                 "type": "options",
                                                                 "values": [
-                                                                    "log issue"
+                                                                    "passed"
                                                                 ]
                                                             }
                                                         ]
