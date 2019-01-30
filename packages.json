@@ -1,5 +1,5 @@
 {
-    "packageId": "292f5e88201cca",
+    "packageId": "17ccce944f8bb4",
     "name": "",
     "description": "",
     "buttons": [
@@ -412,11 +412,6 @@
                         "storeId": "blockAinterior",
                         "schema": [
                             {
-                                "id": "2c6ee6f8e1c62c",
-                                "path": "2c6ee6f8e1c62c",
-                                "alias": "door"
-                            },
-                            {
                                 "id": "1478c0247496c6_pressed",
                                 "path": "1478c0247496c6_pressed",
                                 "alias": "time"
@@ -427,9 +422,9 @@
                                 "alias": "lift issue"
                             },
                             {
-                                "id": "23fc228b54d2a",
-                                "path": "23fc228b54d2a",
-                                "alias": "floor issue"
+                                "id": "3c93375fc682f",
+                                "path": "3c93375fc682f",
+                                "alias": "lighting issue"
                             },
                             {
                                 "id": "877c23bc2875d",
@@ -437,9 +432,14 @@
                                 "alias": "stair issue"
                             },
                             {
-                                "id": "3c93375fc682f",
-                                "path": "3c93375fc682f",
-                                "alias": "lighting issue"
+                                "id": "23fc228b54d2a",
+                                "path": "23fc228b54d2a",
+                                "alias": "floor issue"
+                            },
+                            {
+                                "id": "2c6ee6f8e1c62c",
+                                "path": "2c6ee6f8e1c62c",
+                                "alias": "door"
                             },
                             {
                                 "id": "2aa2f3ddcbedde",
