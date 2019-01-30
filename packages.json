@@ -1,5 +1,5 @@
 {
-    "packageId": "86c40aeb17c108",
+    "packageId": "292f5e88201cca",
     "name": "",
     "description": "",
     "buttons": [
@@ -159,7 +159,7 @@
                     "compulsory": true
                 },
                 {
-                    "question": "take a picture",
+                    "question": "door picture",
                     "type": "camera",
                     "values": {},
                     "validators": [],
@@ -417,34 +417,34 @@
                                 "alias": "door"
                             },
                             {
-                                "id": "3c93375fc682f",
-                                "path": "3c93375fc682f",
-                                "alias": "lighting"
-                            },
-                            {
-                                "id": "877c23bc2875d",
-                                "path": "877c23bc2875d",
-                                "alias": "stairs"
-                            },
-                            {
-                                "id": "23fc228b54d2a",
-                                "path": "23fc228b54d2a",
-                                "alias": "floors"
+                                "id": "1478c0247496c6_pressed",
+                                "path": "1478c0247496c6_pressed",
+                                "alias": "time"
                             },
                             {
                                 "id": "1fb09b6a67b892",
                                 "path": "1fb09b6a67b892",
-                                "alias": "lift"
+                                "alias": "lift issue"
+                            },
+                            {
+                                "id": "23fc228b54d2a",
+                                "path": "23fc228b54d2a",
+                                "alias": "floor issue"
+                            },
+                            {
+                                "id": "877c23bc2875d",
+                                "path": "877c23bc2875d",
+                                "alias": "stair issue"
+                            },
+                            {
+                                "id": "3c93375fc682f",
+                                "path": "3c93375fc682f",
+                                "alias": "lighting issue"
                             },
                             {
                                 "id": "2aa2f3ddcbedde",
                                 "path": "2aa2f3ddcbedde",
-                                "alias": "take a picture"
-                            },
-                            {
-                                "id": "1478c0247496c6_pressed",
-                                "path": "1478c0247496c6_pressed",
-                                "alias": "time"
+                                "alias": "door evidence"
                             }
                         ]
                     },
