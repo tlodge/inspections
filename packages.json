@@ -1,5 +1,5 @@
 {
-    "packageId": "25d1432c48d7f6",
+    "packageId": "248825a12a2994",
     "name": "",
     "description": "",
     "buttons": [
@@ -226,7 +226,7 @@
                                                                 "parent": "26017c26bb1014",
                                                                 "children": [
                                                                     {
-                                                                        "id": "7c232848d85c54",
+                                                                        "id": "2b686213656796",
                                                                         "type": "node",
                                                                         "parent": "1478c0247496c6",
                                                                         "children": []
@@ -414,33 +414,48 @@
                             "recipients": [
                                 {
                                     "name": "presser",
-                                    "type": "presser",
+                                    "type": "user",
                                     "id": "presser",
                                     "path": ""
                                 }
                             ],
-                            "email": [],
-                            "sms": [],
-                            "message": [
-                                "presser"
+                            "placeholders": [
+                                {
+                                    "id": "development",
+                                    "type": "development",
+                                    "value": "development"
+                                },
+                                {
+                                    "id": "postcode",
+                                    "type": "postcode",
+                                    "value": "postcode"
+                                }
                             ]
                         },
                         "static": {
                             "email": {
-                                "subject": "",
-                                "body": ""
+                                "subject": "well done",
+                                "body": "well inspected [development] [postcode]"
                             },
                             "sms": {
-                                "body": ""
+                                "body": "You have done your inspection"
                             },
                             "message": {
-                                "subject": "Inspected",
-                                "body": "Thanks, [presser:username] for inspecting, it has been logged!"
+                                "subject": "inspection complete",
+                                "body": "well done for inspecting"
                             },
-                            "recipients": []
+                            "recipients": [
+                                {
+                                    "name": "07972639571",
+                                    "id": "07972639571",
+                                    "type": "sms",
+                                    "sms": "07972639571",
+                                    "path": ""
+                                }
+                            ]
                         }
                     },
-                    "webhookId": "7c232848d85c54"
+                    "webhookId": "2b686213656796"
                 }
             ]
         },
