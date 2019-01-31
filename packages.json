@@ -388,23 +388,6 @@
             },
             "webhooks": [
                 {
-                    "name": "log endpoint",
-                    "type": "log",
-                    "url": "http://buttonkit:8080/api/v1/datastore/log",
-                    "method": "POST",
-                    "contentType": "json",
-                    "parameters": {
-                        "dynamic": [
-                            "presser",
-                            "pressed"
-                        ],
-                        "static": {
-                            "_datastorename": "blockAinterior"
-                        }
-                    },
-                    "webhookId": "1478c0247496c6"
-                },
-                {
                     "name": "notify endpoint",
                     "type": "notify",
                     "url": "http://buttonkit:8080/api/v1/send",
