@@ -1,5 +1,5 @@
 {
-    "packageId": "1d08cc8eb5a18",
+    "packageId": "1995c8526a1008",
     "name": "",
     "description": "",
     "buttons": [
@@ -226,7 +226,7 @@
                                                                 "parent": "26017c26bb1014",
                                                                 "children": [
                                                                     {
-                                                                        "id": "2b6d6eb56508aa",
+                                                                        "id": "c58de05e309bc8",
                                                                         "type": "node",
                                                                         "parent": "1b9208b693169d",
                                                                         "children": []
@@ -454,12 +454,23 @@
                     "method": "POST",
                     "contentType": "json",
                     "parameters": {
-                        "dynamic": [],
+                        "dynamic": [
+                            {
+                                "id": "presser",
+                                "type": "user",
+                                "value": "username"
+                            },
+                            {
+                                "id": "pressed",
+                                "type": "ts",
+                                "value": "pressed"
+                            }
+                        ],
                         "static": {
                             "_datastorename": "reports"
                         }
                     },
-                    "webhookId": "2b6d6eb56508aa"
+                    "webhookId": "c58de05e309bc8"
                 }
             ]
         },
@@ -476,9 +487,9 @@
                         "storeId": "reports",
                         "schema": [
                             {
-                                "id": "2b6d6eb56508aa_pressed",
-                                "path": "2b6d6eb56508aa_pressed",
-                                "alias": "time"
+                                "id": "c58de05e309bc8_presser",
+                                "path": "c58de05e309bc8_presser",
+                                "alias": "presser"
                             },
                             {
                                 "id": "3c93375fc682f",
@@ -519,6 +530,11 @@
                                 "id": "23fe0ce03e74be_pressed",
                                 "path": "23fe0ce03e74be_pressed",
                                 "alias": "date"
+                            },
+                            {
+                                "id": "2b6d6eb56508aa_pressed",
+                                "path": "2b6d6eb56508aa_pressed",
+                                "alias": "time"
                             }
                         ]
                     },
