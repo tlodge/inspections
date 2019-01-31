@@ -1,5 +1,5 @@
 {
-    "packageId": "2748361458aeae",
+    "packageId": "17db3ce41bb975",
     "name": "",
     "description": "",
     "buttons": [
@@ -224,7 +224,15 @@
                                                                 "id": "1b9208b693169d",
                                                                 "type": "node",
                                                                 "parent": "26017c26bb1014",
-                                                                "children": []
+                                                                "children": [
+                                                                    {
+                                                                        "id": "2129ab7d1b635e",
+                                                                        "type": "node",
+                                                                        "parent": "1b9208b693169d",
+                                                                        "children": []
+                                                                    }
+                                                                ],
+                                                                "rules": []
                                                             }
                                                         ],
                                                         "rules": [
@@ -438,6 +446,20 @@
                         }
                     },
                     "webhookId": "1b9208b693169d"
+                },
+                {
+                    "name": "log endpoint",
+                    "type": "log",
+                    "url": "http://buttonkit:8080/api/v1/datastore/log",
+                    "method": "POST",
+                    "contentType": "json",
+                    "parameters": {
+                        "dynamic": [],
+                        "static": {
+                            "_datastorename": "reports"
+                        }
+                    },
+                    "webhookId": "2129ab7d1b635e"
                 }
             ]
         },
