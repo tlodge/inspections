@@ -1,5 +1,5 @@
 {
-    "packageId": "1995c8526a1008",
+    "packageId": "164e73012d074d",
     "name": "",
     "description": "",
     "buttons": [
@@ -224,14 +224,7 @@
                                                                 "id": "1b9208b693169d",
                                                                 "type": "node",
                                                                 "parent": "26017c26bb1014",
-                                                                "children": [
-                                                                    {
-                                                                        "id": "c58de05e309bc8",
-                                                                        "type": "node",
-                                                                        "parent": "1b9208b693169d",
-                                                                        "children": []
-                                                                    }
-                                                                ],
+                                                                "children": [],
                                                                 "rules": []
                                                             }
                                                         ],
@@ -446,31 +439,6 @@
                         }
                     },
                     "webhookId": "1b9208b693169d"
-                },
-                {
-                    "name": "log endpoint",
-                    "type": "log",
-                    "url": "http://buttonkit:8080/api/v1/datastore/log",
-                    "method": "POST",
-                    "contentType": "json",
-                    "parameters": {
-                        "dynamic": [
-                            {
-                                "id": "presser",
-                                "type": "user",
-                                "value": "username"
-                            },
-                            {
-                                "id": "pressed",
-                                "type": "ts",
-                                "value": "pressed"
-                            }
-                        ],
-                        "static": {
-                            "_datastorename": "reports"
-                        }
-                    },
-                    "webhookId": "c58de05e309bc8"
                 }
             ]
         },
