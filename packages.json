@@ -1,5 +1,5 @@
 {
-    "packageId": "28b35bdbdf9556",
+    "packageId": "284d702ffd44a2",
     "name": "",
     "description": "",
     "buttons": [
@@ -221,14 +221,14 @@
                                                         "parent": "37e5e555e9bbc",
                                                         "children": [
                                                             {
-                                                                "id": "302384c00b1ca",
+                                                                "id": "1b914d92bdd784",
                                                                 "type": "node",
                                                                 "parent": "26017c26bb1014",
                                                                 "children": [
                                                                     {
-                                                                        "id": "34a110dfe7d6b",
+                                                                        "id": "339d42ff85512a",
                                                                         "type": "node",
-                                                                        "parent": "302384c00b1ca",
+                                                                        "parent": "1b914d92bdd784",
                                                                         "children": []
                                                                     }
                                                                 ]
@@ -412,33 +412,38 @@
                             ],
                             "placeholders": [
                                 {
-                                    "id": "presser",
-                                    "type": "user",
-                                    "value": "username"
+                                    "id": "presserusername",
+                                    "key": "username",
+                                    "type": "user"
+                                },
+                                {
+                                    "id": "presserfirstname",
+                                    "key": "username",
+                                    "type": "user"
+                                },
+                                {
+                                    "id": "eff009cb984638",
+                                    "key": "value",
+                                    "type": "question"
                                 },
                                 {
                                     "id": "devname",
                                     "type": "development",
-                                    "value": "name"
-                                },
-                                {
-                                    "id": "eff009cb984638",
-                                    "type": "question",
-                                    "value": "eff009cb984638"
+                                    "key": "name"
                                 }
                             ]
                         },
                         "static": {
                             "email": {
-                                "subject": "Report submitted",
-                                "body": "Dear [user:username], thanks for submitting your report"
+                                "subject": "report submitted",
+                                "body": "thanks for your submission [presserfirstname].  We are interested in the state of the entry door as [eff009cb984638]"
                             },
                             "sms": {
-                                "body": "Dear [user:username], thanks for inspecting.  Report logged."
+                                "body": "[presserusername], your report has been received"
                             },
                             "message": {
-                                "subject": "thanks",
-                                "body": "thanks [user:username] for submitting a report to [development:name].  It has been logged, especially question [question:eff009cb984638]"
+                                "subject": "submission of inspection",
+                                "body": "Thanks for the submission for [devname]"
                             },
                             "recipients": [
                                 {
@@ -460,7 +465,7 @@
                             ]
                         }
                     },
-                    "webhookId": "302384c00b1ca"
+                    "webhookId": "1b914d92bdd784"
                 },
                 {
                     "name": "log endpoint",
@@ -489,7 +494,7 @@
                             "_datastorename": "reports"
                         }
                     },
-                    "webhookId": "34a110dfe7d6b"
+                    "webhookId": "339d42ff85512a"
                 }
             ]
         },
