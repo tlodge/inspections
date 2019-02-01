@@ -499,69 +499,6 @@
                     "webhookId": "339d42ff85512a"
                 }
             ]
-        },
-        {
-            "buttonId": "2d0a537f27c3fa",
-            "name": "reports",
-            "description": "reports so far",
-            "type": "action",
-            "questions": [
-                {
-                    "question": "datastore question",
-                    "type": "datastoreitem",
-                    "values": {
-                        "storeId": "reports",
-                        "schema": [
-                            {
-                                "id": "339d42ff85512a_presser",
-                                "path": "339d42ff85512a_presser",
-                                "alias": "presser"
-                            },
-                            {
-                                "id": "2c6ee6f8e1c62c",
-                                "path": "2c6ee6f8e1c62c",
-                                "alias": "door"
-                            },
-                            {
-                                "id": "3c93375fc682f",
-                                "path": "3c93375fc682f",
-                                "alias": "lighting"
-                            },
-                            {
-                                "id": "877c23bc2875d",
-                                "path": "877c23bc2875d",
-                                "alias": "stairs"
-                            },
-                            {
-                                "id": "23fc228b54d2a",
-                                "path": "23fc228b54d2a",
-                                "alias": "floors"
-                            },
-                            {
-                                "id": "1fb09b6a67b892",
-                                "path": "1fb09b6a67b892",
-                                "alias": "lift"
-                            },
-                            {
-                                "id": "83de736624f9a8_presser",
-                                "path": "83de736624f9a8_presser",
-                                "alias": "presser"
-                            }
-                        ]
-                    },
-                    "validators": [],
-                    "compulsory": true,
-                    "questionId": "1eddb18878facf",
-                    "number": 1
-                }
-            ],
-            "navigation": {
-                "id": "1eddb18878facf",
-                "type": "node",
-                "parent": null,
-                "children": []
-            },
-            "webhooks": []
         }
     ]
 }
