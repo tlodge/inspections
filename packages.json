@@ -1,5 +1,5 @@
 {
-    "packageId": "26cce87d7a2b22",
+    "packageId": "104ae9a003ec99",
     "name": "",
     "description": "",
     "buttons": [
@@ -229,9 +229,11 @@
                                                                         "id": "18726161d89f8f",
                                                                         "type": "node",
                                                                         "parent": "a1ffa406937e2",
-                                                                        "children": []
+                                                                        "children": [],
+                                                                        "rules": []
                                                                     }
-                                                                ]
+                                                                ],
+                                                                "rules": []
                                                             }
                                                         ],
                                                         "rules": [
@@ -502,7 +504,38 @@
                     "type": "datastoreitem",
                     "values": {
                         "storeId": "reports",
-                        "schema": []
+                        "schema": [
+                            {
+                                "id": "18726161d89f8f_pressed",
+                                "path": "18726161d89f8f_pressed",
+                                "alias": "time"
+                            },
+                            {
+                                "id": "2c6ee6f8e1c62c",
+                                "path": "2c6ee6f8e1c62c",
+                                "alias": "door"
+                            },
+                            {
+                                "id": "3c93375fc682f",
+                                "path": "3c93375fc682f",
+                                "alias": "lighting"
+                            },
+                            {
+                                "id": "877c23bc2875d",
+                                "path": "877c23bc2875d",
+                                "alias": "stairs"
+                            },
+                            {
+                                "id": "23fc228b54d2a",
+                                "path": "23fc228b54d2a",
+                                "alias": "floors"
+                            },
+                            {
+                                "id": "1fb09b6a67b892",
+                                "path": "1fb09b6a67b892",
+                                "alias": "lift"
+                            }
+                        ]
                     },
                     "validators": [],
                     "compulsory": true,
