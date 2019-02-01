@@ -1,5 +1,5 @@
 {
-    "packageId": "62dc41663ccfbc",
+    "packageId": "26cce87d7a2b22",
     "name": "",
     "description": "",
     "buttons": [
@@ -221,19 +221,17 @@
                                                         "parent": "37e5e555e9bbc",
                                                         "children": [
                                                             {
-                                                                "id": "1b914d92bdd784",
+                                                                "id": "a1ffa406937e2",
                                                                 "type": "node",
                                                                 "parent": "26017c26bb1014",
                                                                 "children": [
                                                                     {
-                                                                        "id": "339d42ff85512a",
+                                                                        "id": "18726161d89f8f",
                                                                         "type": "node",
-                                                                        "parent": "1b914d92bdd784",
-                                                                        "children": [],
-                                                                        "rules": []
+                                                                        "parent": "a1ffa406937e2",
+                                                                        "children": []
                                                                     }
-                                                                ],
-                                                                "rules": []
+                                                                ]
                                                             }
                                                         ],
                                                         "rules": [
@@ -416,36 +414,31 @@
                                 {
                                     "id": "presserusername",
                                     "key": "username",
-                                    "type": "user"
-                                },
-                                {
-                                    "id": "presserfirstname",
-                                    "key": "username",
-                                    "type": "user"
-                                },
-                                {
-                                    "id": "eff009cb984638",
-                                    "key": "value",
-                                    "type": "question"
+                                    "type": "presser"
                                 },
                                 {
                                     "id": "devname",
                                     "type": "development",
                                     "key": "name"
+                                },
+                                {
+                                    "id": "devpostcode",
+                                    "type": "development",
+                                    "key": "postcode"
                                 }
                             ]
                         },
                         "static": {
                             "email": {
-                                "subject": "report submitted",
-                                "body": "thanks for your submission [presserfirstname].  We are interested in the state of the entry door as [eff009cb984638]"
+                                "subject": "thankyou",
+                                "body": "thanks for your report for [devpostcode] [devname] "
                             },
                             "sms": {
-                                "body": "[presserusername], your report has been received"
+                                "body": "thanks [presserusername]!"
                             },
                             "message": {
-                                "subject": "submission of inspection",
-                                "body": "Thanks for the submission for [devname]"
+                                "subject": "thanks",
+                                "body": "That is great stuff, thanks for reporting!"
                             },
                             "recipients": [
                                 {
@@ -467,7 +460,7 @@
                             ]
                         }
                     },
-                    "webhookId": "1b914d92bdd784"
+                    "webhookId": "a1ffa406937e2"
                 },
                 {
                     "name": "log endpoint",
@@ -479,16 +472,14 @@
                         "dynamic": {
                             "presser": [
                                 {
-                                    "id": "presser",
-                                    "type": "user",
-                                    "value": "username"
+                                    "id": "18726161d89f8f_presser",
+                                    "type": "presser"
                                 }
                             ],
                             "pressed": [
                                 {
-                                    "id": "pressed",
-                                    "type": "ts",
-                                    "value": "pressed"
+                                    "id": "18726161d89f8f_pressed",
+                                    "type": "pressed"
                                 }
                             ]
                         },
@@ -496,9 +487,36 @@
                             "_datastorename": "reports"
                         }
                     },
-                    "webhookId": "339d42ff85512a"
+                    "webhookId": "18726161d89f8f"
                 }
             ]
+        },
+        {
+            "buttonId": "2043c1c61ce124",
+            "name": "reports",
+            "description": "button description",
+            "type": "action",
+            "questions": [
+                {
+                    "question": "datastore question",
+                    "type": "datastoreitem",
+                    "values": {
+                        "storeId": "reports",
+                        "schema": []
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "19b9ed24ca4ffa",
+                    "number": 1
+                }
+            ],
+            "navigation": {
+                "id": "19b9ed24ca4ffa",
+                "type": "node",
+                "parent": null,
+                "children": []
+            },
+            "webhooks": []
         }
     ]
 }
