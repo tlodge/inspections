@@ -1,5 +1,5 @@
 {
-    "packageId": "286ce39cef3334",
+    "packageId": "29b5b2f64de4c",
     "name": "",
     "description": "",
     "buttons": [
@@ -221,18 +221,10 @@
                                                         "parent": "37e5e555e9bbc",
                                                         "children": [
                                                             {
-                                                                "id": "1b9208b693169d",
+                                                                "id": "302384c00b1ca",
                                                                 "type": "node",
                                                                 "parent": "26017c26bb1014",
-                                                                "children": [
-                                                                    {
-                                                                        "id": "83de736624f9a8",
-                                                                        "type": "node",
-                                                                        "parent": "1b9208b693169d",
-                                                                        "children": []
-                                                                    }
-                                                                ],
-                                                                "rules": []
+                                                                "children": []
                                                             }
                                                         ],
                                                         "rules": [
@@ -396,10 +388,19 @@
                         "dynamic": {
                             "recipients": [
                                 {
-                                    "name": "presser",
-                                    "type": "user",
+                                    "id": "tenants",
+                                    "type": "occupancy",
+                                    "value": {}
+                                },
+                                {
+                                    "id": "owners",
+                                    "type": "occupancy",
+                                    "value": {}
+                                },
+                                {
                                     "id": "presser",
-                                    "path": ""
+                                    "type": "user",
+                                    "value": {}
                                 }
                             ],
                             "placeholders": [
@@ -409,70 +410,50 @@
                                     "value": "username"
                                 },
                                 {
-                                    "id": "fd9a97f5278768",
+                                    "id": "devname",
+                                    "type": "development",
+                                    "value": "name"
+                                },
+                                {
+                                    "id": "eff009cb984638",
                                     "type": "question",
-                                    "value": "fd9a97f5278768"
+                                    "value": "eff009cb984638"
                                 }
                             ]
                         },
                         "static": {
                             "email": {
-                                "subject": "test",
-                                "body": "testing email [fd9a97f5278768]"
+                                "subject": "Report submitted",
+                                "body": "Dear [user:username], thanks for submitting your report"
                             },
                             "sms": {
-                                "body": "Dear [presser] You are ok"
+                                "body": "Dear [user:username], thanks for inspecting.  Report logged."
                             },
                             "message": {
-                                "subject": "test converasation",
-                                "body": "this is my message!"
+                                "subject": "thanks",
+                                "body": "thanks [user:username] for submitting a report to [development:name].  It has been logged, especially question [question:eff009cb984638]"
                             },
                             "recipients": [
                                 {
-                                    "name": "07972639571",
-                                    "id": "07972639571",
                                     "type": "sms",
-                                    "sms": "07972639571",
-                                    "path": ""
+                                    "id": "07972639571",
+                                    "value": {
+                                        "path": "",
+                                        "sms": "07972639571"
+                                    }
                                 },
                                 {
-                                    "name": "tlodge@gmail.com",
-                                    "id": "tlodge@gmail.com",
                                     "type": "email",
-                                    "email": "tlodge@gmail.com",
-                                    "path": ""
+                                    "id": "tlodge@gmail.com",
+                                    "value": {
+                                        "email": "tlodge@gmail.com",
+                                        "path": ""
+                                    }
                                 }
                             ]
                         }
                     },
-                    "webhookId": "1b9208b693169d"
-                },
-                {
-                    "name": "log endpoint",
-                    "type": "log",
-                    "url": "http://buttonkit:8080/api/v1/datastore/log",
-                    "method": "POST",
-                    "contentType": "json",
-                    "parameters": {
-                        "dynamic": {
-                            "rows": [
-                                {
-                                    "id": "presser",
-                                    "type": "user",
-                                    "value": "username"
-                                },
-                                {
-                                    "id": "pressed",
-                                    "type": "ts",
-                                    "value": "pressed"
-                                }
-                            ]
-                        },
-                        "static": {
-                            "_datastorename": "reports"
-                        }
-                    },
-                    "webhookId": "83de736624f9a8"
+                    "webhookId": "302384c00b1ca"
                 }
             ]
         },
