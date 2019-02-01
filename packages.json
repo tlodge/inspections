@@ -1,5 +1,5 @@
 {
-    "packageId": "284d702ffd44a2",
+    "packageId": "62dc41663ccfbc",
     "name": "",
     "description": "",
     "buttons": [
@@ -229,9 +229,11 @@
                                                                         "id": "339d42ff85512a",
                                                                         "type": "node",
                                                                         "parent": "1b914d92bdd784",
-                                                                        "children": []
+                                                                        "children": [],
+                                                                        "rules": []
                                                                     }
-                                                                ]
+                                                                ],
+                                                                "rules": []
                                                             }
                                                         ],
                                                         "rules": [
@@ -511,8 +513,8 @@
                         "storeId": "reports",
                         "schema": [
                             {
-                                "id": "83de736624f9a8_presser",
-                                "path": "83de736624f9a8_presser",
+                                "id": "339d42ff85512a_presser",
+                                "path": "339d42ff85512a_presser",
                                 "alias": "presser"
                             },
                             {
@@ -539,6 +541,11 @@
                                 "id": "1fb09b6a67b892",
                                 "path": "1fb09b6a67b892",
                                 "alias": "lift"
+                            },
+                            {
+                                "id": "83de736624f9a8_presser",
+                                "path": "83de736624f9a8_presser",
+                                "alias": "presser"
                             }
                         ]
                     },
