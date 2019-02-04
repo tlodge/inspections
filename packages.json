@@ -408,7 +408,7 @@
                                 },
                                 {
                                     "id": "presser",
-                                    "type": "user",
+                                    "type": "presser",
                                     "value": {}
                                 }
                             ],
