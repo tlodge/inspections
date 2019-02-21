@@ -1,5 +1,5 @@
 {
-    "packageId": "d9e003e1fb82f8",
+    "packageId": "d30cbcdaeceec8",
     "name": "",
     "description": "",
     "buttons": [
@@ -504,7 +504,43 @@
                     "type": "datastoreitem",
                     "values": {
                         "storeId": "reports",
-                        "schema": [],
+                        "schema": [
+                            {
+                                "id": "18726161d89f8f_presser",
+                                "path": "18726161d89f8f_presser",
+                                "alias": "inspector"
+                            },
+                            {
+                                "id": "18726161d89f8f_pressed",
+                                "path": "18726161d89f8f_pressed",
+                                "alias": "logged"
+                            },
+                            {
+                                "id": "2c6ee6f8e1c62c",
+                                "path": "2c6ee6f8e1c62c",
+                                "alias": "door"
+                            },
+                            {
+                                "id": "3c93375fc682f",
+                                "path": "3c93375fc682f",
+                                "alias": "lighting"
+                            },
+                            {
+                                "id": "877c23bc2875d",
+                                "path": "877c23bc2875d",
+                                "alias": "stairs"
+                            },
+                            {
+                                "id": "23fc228b54d2a",
+                                "path": "23fc228b54d2a",
+                                "alias": "floors"
+                            },
+                            {
+                                "id": "1fb09b6a67b892",
+                                "path": "1fb09b6a67b892",
+                                "alias": "lift"
+                            }
+                        ],
                         "filters": []
                     },
                     "validators": [],
