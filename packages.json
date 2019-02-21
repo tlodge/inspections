@@ -519,31 +519,31 @@
                                 "id": "2c6ee6f8e1c62c",
                                 "path": "2c6ee6f8e1c62c",
                                 "alias": "door",
-                                "default": "✔"
+                                "default": "passed"
                             },
                             {
                                 "id": "3c93375fc682f",
                                 "path": "3c93375fc682f",
                                 "alias": "lighting",
-                                "default": "✔"
+                                "default": "passed"
                             },
                             {
                                 "id": "877c23bc2875d",
                                 "path": "877c23bc2875d",
                                 "alias": "stairs",
-                                "default": "✔"
+                                "default": "passed"
                             },
                             {
                                 "id": "23fc228b54d2a",
                                 "path": "23fc228b54d2a",
                                 "alias": "floors",
-                                "default": "✔"
+                                "default": "passed"
                             },
                             {
                                 "id": "1fb09b6a67b892",
                                 "path": "1fb09b6a67b892",
                                 "alias": "lift",
-                                "default": "✔"
+                                "default": "passed"
                             }
                         ],
                         "filters": []
