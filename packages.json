@@ -1,5 +1,5 @@
 {
-    "packageId": "26022a109fa802",
+    "packageId": "9d12047f107c5",
     "name": "",
     "description": "",
     "buttons": [
@@ -519,31 +519,31 @@
                                 "id": "2c6ee6f8e1c62c",
                                 "path": "2c6ee6f8e1c62c",
                                 "alias": "door",
-                                "default": "passed"
+                                "default": "✔"
                             },
                             {
                                 "id": "3c93375fc682f",
                                 "path": "3c93375fc682f",
                                 "alias": "lighting",
-                                "default": "passed"
+                                "default": "✔"
                             },
                             {
                                 "id": "877c23bc2875d",
                                 "path": "877c23bc2875d",
                                 "alias": "stairs",
-                                "default": "passed"
+                                "default": "✔"
                             },
                             {
                                 "id": "23fc228b54d2a",
                                 "path": "23fc228b54d2a",
                                 "alias": "floors",
-                                "default": "passed"
+                                "default": "✔"
                             },
                             {
                                 "id": "1fb09b6a67b892",
                                 "path": "1fb09b6a67b892",
                                 "alias": "lift",
-                                "default": "passed"
+                                "default": "✔"
                             }
                         ],
                         "filters": []
