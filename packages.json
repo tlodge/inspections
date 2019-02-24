@@ -1,5 +1,5 @@
 {
-    "packageId": "2a30b5d86c5f48",
+    "packageId": "98481f645c8388",
     "name": "",
     "description": "",
     "buttons": [
@@ -476,13 +476,13 @@
                             {
                                 "id": "8aa7aa7966d53_presser",
                                 "path": "8aa7aa7966d53_presser",
-                                "alias": "presser",
+                                "alias": "logger",
                                 "default": ""
                             },
                             {
                                 "id": "8aa7aa7966d53_pressed",
                                 "path": "8aa7aa7966d53_pressed",
-                                "alias": "pressed",
+                                "alias": "date",
                                 "default": ""
                             },
                             {
@@ -516,14 +516,14 @@
                                 "default": "✔"
                             },
                             {
-                                "id": "18726161d89f8f_presser",
-                                "path": "18726161d89f8f_presser",
-                                "alias": "inspector"
-                            },
-                            {
                                 "id": "18726161d89f8f_pressed",
                                 "path": "18726161d89f8f_pressed",
                                 "alias": "logged"
+                            },
+                            {
+                                "id": "18726161d89f8f_presser",
+                                "path": "18726161d89f8f_presser",
+                                "alias": "inspector"
                             }
                         ],
                         "filters": []
