@@ -1,5 +1,5 @@
 {
-    "packageId": "9d12047f107c5",
+    "packageId": "2b43f8ab28d46",
     "name": "",
     "description": "",
     "buttons": [
@@ -221,19 +221,17 @@
                                                         "parent": "37e5e555e9bbc",
                                                         "children": [
                                                             {
-                                                                "id": "a1ffa406937e2",
+                                                                "id": "229f1667a48b52",
                                                                 "type": "node",
                                                                 "parent": "26017c26bb1014",
                                                                 "children": [
                                                                     {
-                                                                        "id": "18726161d89f8f",
+                                                                        "id": "8aa7aa7966d53",
                                                                         "type": "node",
-                                                                        "parent": "a1ffa406937e2",
-                                                                        "children": [],
-                                                                        "rules": []
+                                                                        "parent": "229f1667a48b52",
+                                                                        "children": []
                                                                     }
-                                                                ],
-                                                                "rules": []
+                                                                ]
                                                             }
                                                         ],
                                                         "rules": [
@@ -395,58 +393,26 @@
                     "method": "POST",
                     "parameters": {
                         "dynamic": {
-                            "recipients": [
-                                {
-                                    "id": "tenants",
-                                    "type": "occupancy",
-                                    "value": {}
-                                },
-                                {
-                                    "id": "owners",
-                                    "type": "occupancy",
-                                    "value": {}
-                                },
-                                {
-                                    "id": "presser",
-                                    "type": "presser",
-                                    "value": {}
-                                }
-                            ],
-                            "placeholders": [
-                                {
-                                    "id": "presserusername",
-                                    "key": "username",
-                                    "type": "presser"
-                                },
-                                {
-                                    "id": "devname",
-                                    "type": "development",
-                                    "key": "name"
-                                },
-                                {
-                                    "id": "devpostcode",
-                                    "type": "development",
-                                    "key": "postcode"
-                                }
-                            ]
+                            "recipients": [],
+                            "placeholders": []
                         },
                         "static": {
                             "email": {
-                                "subject": "thankyou",
-                                "body": "thanks for your report for [devpostcode] [devname] "
+                                "subject": "",
+                                "body": ""
                             },
                             "sms": {
-                                "body": "thanks [presserusername]!"
+                                "body": "an inspection has been done"
                             },
                             "message": {
-                                "subject": "thanks",
-                                "body": "That is great stuff, thanks for reporting!"
+                                "subject": "",
+                                "body": ""
                             },
                             "recipients": [
                                 {
                                     "type": "sms",
                                     "id": "07972639571",
-                                    "value": {
+                                    "answer": {
                                         "path": "",
                                         "sms": "07972639571"
                                     }
@@ -454,7 +420,7 @@
                                 {
                                     "type": "email",
                                     "id": "tlodge@gmail.com",
-                                    "value": {
+                                    "answer": {
                                         "email": "tlodge@gmail.com",
                                         "path": ""
                                     }
@@ -462,7 +428,7 @@
                             ]
                         }
                     },
-                    "webhookId": "a1ffa406937e2"
+                    "webhookId": "229f1667a48b52"
                 },
                 {
                     "name": "log endpoint",
@@ -474,22 +440,22 @@
                         "dynamic": {
                             "presser": [
                                 {
-                                    "id": "18726161d89f8f_presser",
+                                    "id": "8aa7aa7966d53_presser",
                                     "type": "presser"
                                 }
                             ],
                             "pressed": [
                                 {
-                                    "id": "18726161d89f8f_pressed",
+                                    "id": "8aa7aa7966d53_pressed",
                                     "type": "pressed"
                                 }
                             ]
                         },
                         "static": {
-                            "_datastorename": "reports"
+                            "_datastorename": "inspections"
                         }
                     },
-                    "webhookId": "18726161d89f8f"
+                    "webhookId": "8aa7aa7966d53"
                 }
             ]
         },
