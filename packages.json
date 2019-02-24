@@ -514,16 +514,6 @@
                                 "path": "1fb09b6a67b892",
                                 "alias": "lift",
                                 "default": "✔"
-                            },
-                            {
-                                "id": "18726161d89f8f_pressed",
-                                "path": "18726161d89f8f_pressed",
-                                "alias": "logged"
-                            },
-                            {
-                                "id": "18726161d89f8f_presser",
-                                "path": "18726161d89f8f_presser",
-                                "alias": "inspector"
                             }
                         ],
                         "filters": []
