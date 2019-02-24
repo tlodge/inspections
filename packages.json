@@ -1,5 +1,5 @@
 {
-    "packageId": "2b43f8ab28d46",
+    "packageId": "2a30b5d86c5f48",
     "name": "",
     "description": "",
     "buttons": [
@@ -229,9 +229,11 @@
                                                                         "id": "8aa7aa7966d53",
                                                                         "type": "node",
                                                                         "parent": "229f1667a48b52",
-                                                                        "children": []
+                                                                        "children": [],
+                                                                        "rules": []
                                                                     }
-                                                                ]
+                                                                ],
+                                                                "rules": []
                                                             }
                                                         ],
                                                         "rules": [
@@ -469,17 +471,19 @@
                     "question": "reports",
                     "type": "datastoreitem",
                     "values": {
-                        "storeId": "reports",
+                        "storeId": "inspections",
                         "schema": [
                             {
-                                "id": "18726161d89f8f_presser",
-                                "path": "18726161d89f8f_presser",
-                                "alias": "inspector"
+                                "id": "8aa7aa7966d53_presser",
+                                "path": "8aa7aa7966d53_presser",
+                                "alias": "presser",
+                                "default": ""
                             },
                             {
-                                "id": "18726161d89f8f_pressed",
-                                "path": "18726161d89f8f_pressed",
-                                "alias": "logged"
+                                "id": "8aa7aa7966d53_pressed",
+                                "path": "8aa7aa7966d53_pressed",
+                                "alias": "pressed",
+                                "default": ""
                             },
                             {
                                 "id": "2c6ee6f8e1c62c",
@@ -510,6 +514,16 @@
                                 "path": "1fb09b6a67b892",
                                 "alias": "lift",
                                 "default": "✔"
+                            },
+                            {
+                                "id": "18726161d89f8f_presser",
+                                "path": "18726161d89f8f_presser",
+                                "alias": "inspector"
+                            },
+                            {
+                                "id": "18726161d89f8f_pressed",
+                                "path": "18726161d89f8f_pressed",
+                                "alias": "logged"
                             }
                         ],
                         "filters": []
