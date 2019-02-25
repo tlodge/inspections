@@ -1,5 +1,5 @@
 {
-    "packageId": "12e9ba7fdd4e8a",
+    "packageId": "20c92862220598",
     "name": "",
     "description": "",
     "buttons": [
@@ -102,7 +102,7 @@
                         "description": "please describe what the issue is as succinctly as possible"
                     },
                     "validators": [],
-                    "compulsory": false,
+                    "compulsory": true,
                     "questionId": "2c6ee6f8e1c62c",
                     "number": 6
                 },
