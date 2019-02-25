@@ -1,5 +1,5 @@
 {
-    "packageId": "20c92862220598",
+    "packageId": "3bcd7bb672f66e",
     "name": "",
     "description": "",
     "buttons": [
@@ -114,7 +114,7 @@
                         "description": "only describe faults that you cannot fix"
                     },
                     "validators": [],
-                    "compulsory": false,
+                    "compulsory": true,
                     "questionId": "3c93375fc682f",
                     "number": 7
                 },
