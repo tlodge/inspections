@@ -1,5 +1,5 @@
 {
-    "packageId": "1557bd26f8acde",
+    "packageId": "968893ce576d8",
     "name": "",
     "description": "",
     "buttons": [
@@ -98,7 +98,7 @@
                     "question": "describe issue",
                     "type": "freetext",
                     "values": {
-                        "format": "sms",
+                        "format": "medium",
                         "description": "please describe what the issue is as succinctly as possible"
                     },
                     "validators": [],
