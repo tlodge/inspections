@@ -1,5 +1,5 @@
 {
-    "packageId": "3bcd7bb672f66e",
+    "packageId": "1557bd26f8acde",
     "name": "",
     "description": "",
     "buttons": [
@@ -110,7 +110,7 @@
                     "question": "describe issue",
                     "type": "freetext",
                     "values": {
-                        "format": "email",
+                        "format": "medium",
                         "description": "only describe faults that you cannot fix"
                     },
                     "validators": [],
