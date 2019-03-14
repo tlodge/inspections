@@ -1,5 +1,5 @@
 {
-    "packageId": "14dadfeb671e86",
+    "packageId": "2913a470eb12f",
     "name": "",
     "description": "",
     "buttons": [
@@ -518,6 +518,12 @@
                                 "id": "2aa2f3ddcbedde",
                                 "path": "2aa2f3ddcbedde",
                                 "alias": "door picture",
+                                "default": ""
+                            },
+                            {
+                                "id": "1fb09b6a67b892",
+                                "path": "1fb09b6a67b892",
+                                "alias": "describe issue",
                                 "default": ""
                             }
                         ]
