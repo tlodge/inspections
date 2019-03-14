@@ -1,5 +1,5 @@
 {
-    "packageId": "299b2a74460d5a",
+    "packageId": "14dadfeb671e86",
     "name": "",
     "description": "",
     "buttons": [
@@ -484,20 +484,8 @@
                             {
                                 "id": "8aa7aa7966d53_pressed",
                                 "path": "8aa7aa7966d53_pressed",
-                                "alias": "date",
+                                "alias": "pressed",
                                 "default": ""
-                            },
-                            {
-                                "id": "2c6ee6f8e1c62c",
-                                "path": "2c6ee6f8e1c62c",
-                                "alias": "door",
-                                "default": "✔"
-                            },
-                            {
-                                "id": "3c93375fc682f",
-                                "path": "3c93375fc682f",
-                                "alias": "lighting",
-                                "default": "✔"
                             },
                             {
                                 "id": "877c23bc2875d",
@@ -516,9 +504,23 @@
                                 "path": "1fb09b6a67b892",
                                 "alias": "lift",
                                 "default": "✔"
+                            },
+                            {
+                                "id": "3c93375fc682f",
+                                "path": "3c93375fc682f",
+                                "alias": "lighting",
+                                "default": "✔"
                             }
                         ],
-                        "filters": []
+                        "filters": [],
+                        "dschema": [
+                            {
+                                "id": "2aa2f3ddcbedde",
+                                "path": "2aa2f3ddcbedde",
+                                "alias": "door picture",
+                                "default": ""
+                            }
+                        ]
                     },
                     "validators": [],
                     "compulsory": true,
