@@ -1,5 +1,5 @@
 {
-    "packageId": "2913a470eb12f",
+    "packageId": "4f46b4c6c77678",
     "name": "",
     "description": "",
     "buttons": [
@@ -515,15 +515,87 @@
                         "filters": [],
                         "dschema": [
                             {
-                                "id": "2aa2f3ddcbedde",
-                                "path": "2aa2f3ddcbedde",
-                                "alias": "door picture",
+                                "id": "8aa7aa7966d53_presser",
+                                "path": "8aa7aa7966d53_presser",
+                                "alias": "presser",
                                 "default": ""
+                            },
+                            {
+                                "id": "8aa7aa7966d53_pressed",
+                                "path": "8aa7aa7966d53_pressed",
+                                "alias": "pressed",
+                                "default": ""
+                            },
+                            {
+                                "id": "eff009cb984638",
+                                "path": "eff009cb984638",
+                                "alias": "entry door",
+                                "default": ""
+                            },
+                            {
+                                "id": "228eabcf7a46c8",
+                                "path": "228eabcf7a46c8",
+                                "alias": "lighting",
+                                "default": ""
+                            },
+                            {
+                                "id": "1a4e4b8d0d28e7",
+                                "path": "1a4e4b8d0d28e7",
+                                "alias": "stairs",
+                                "default": ""
+                            },
+                            {
+                                "id": "fd9a97f5278768",
+                                "path": "fd9a97f5278768",
+                                "alias": "floors and corridors",
+                                "default": ""
+                            },
+                            {
+                                "id": "37e5e555e9bbc",
+                                "path": "37e5e555e9bbc",
+                                "alias": "lift",
+                                "default": ""
+                            },
+                            {
+                                "id": "2c6ee6f8e1c62c",
+                                "path": "2c6ee6f8e1c62c",
+                                "alias": "door issue",
+                                "default": "no door issue"
+                            },
+                            {
+                                "id": "3c93375fc682f",
+                                "path": "3c93375fc682f",
+                                "alias": "lighting issue",
+                                "default": "no lighting issue"
+                            },
+                            {
+                                "id": "877c23bc2875d",
+                                "path": "877c23bc2875d",
+                                "alias": "stairs issue",
+                                "default": "no stairs issue"
+                            },
+                            {
+                                "id": "23fc228b54d2a",
+                                "path": "23fc228b54d2a",
+                                "alias": "floor and corridor issue",
+                                "default": "no floor/corridor issue"
                             },
                             {
                                 "id": "1fb09b6a67b892",
                                 "path": "1fb09b6a67b892",
-                                "alias": "describe issue",
+                                "alias": "lift issue",
+                                "default": "no lift issue"
+                            },
+                            {
+                                "id": "26017c26bb1014",
+                                "path": "26017c26bb1014",
+                                "alias": "signature",
+                                "default": ""
+                            },
+                            {
+                                "id": "2aa2f3ddcbedde",
+                                "path": "2aa2f3ddcbedde",
+                                "alias": "door picture",
                                 "default": ""
                             }
                         ]
